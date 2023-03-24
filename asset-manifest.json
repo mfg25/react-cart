@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-cart/static/css/main.0a266591.css",
+    "main.js": "/react-cart/static/js/main.854a2b42.js",
+    "static/media/slider3.png": "/react-cart/static/media/slider3.7fc79cc300de01ccc7cd.png",
+    "static/media/slider2.png": "/react-cart/static/media/slider2.cebba36bc189bdb26c85.png",
+    "static/media/slider4.png": "/react-cart/static/media/slider4.c39f63b67d46d4bb5afc.png",
+    "static/media/slider1.png": "/react-cart/static/media/slider1.3a8e848eca6f0ffe13f5.png",
+    "static/media/section1.png": "/react-cart/static/media/section1.43f07e5e33415fd31fbb.png",
+    "static/media/section2.png": "/react-cart/static/media/section2.a5aff73c9ed44f455bea.png",
+    "static/media/rx_logo.png": "/react-cart/static/media/rx_logo.9892c0ac79a201e1e9db.png",
+    "index.html": "/react-cart/index.html",
+    "main.0a266591.css.map": "/react-cart/static/css/main.0a266591.css.map",
+    "main.854a2b42.js.map": "/react-cart/static/js/main.854a2b42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a266591.css",
+    "static/js/main.854a2b42.js"
+  ]
+}
