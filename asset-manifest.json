@@ -1,20 +1,43 @@
 {
   "files": {
-    "main.css": "/react-cart/static/css/main.0a266591.css",
-    "main.js": "/react-cart/static/js/main.16005a22.js",
+    "main.css": "/react-cart/static/css/main.dcad6362.css",
+    "main.js": "/react-cart/static/js/main.9f0638cd.js",
     "static/media/slider3.png": "/react-cart/static/media/slider3.7fc79cc300de01ccc7cd.png",
     "static/media/slider2.png": "/react-cart/static/media/slider2.cebba36bc189bdb26c85.png",
     "static/media/slider4.png": "/react-cart/static/media/slider4.c39f63b67d46d4bb5afc.png",
     "static/media/slider1.png": "/react-cart/static/media/slider1.3a8e848eca6f0ffe13f5.png",
     "static/media/section1.png": "/react-cart/static/media/section1.43f07e5e33415fd31fbb.png",
     "static/media/section2.png": "/react-cart/static/media/section2.a5aff73c9ed44f455bea.png",
+    "static/media/shirt4.png": "/react-cart/static/media/shirt4.2a7c37f51336f43c769e.png",
+    "static/media/shirt3.png": "/react-cart/static/media/shirt3.b8e6db86274978d36e8c.png",
+    "static/media/shirt5.png": "/react-cart/static/media/shirt5.9287ed3a6a7ba213f01d.png",
+    "static/media/shirt2.png": "/react-cart/static/media/shirt2.751fb760a52c9c96f86a.png",
     "static/media/rx_logo.png": "/react-cart/static/media/rx_logo.9892c0ac79a201e1e9db.png",
+    "static/media/shirt1.png": "/react-cart/static/media/shirt1.9ccab628faf4f20b6f94.png",
+    "static/media/cap6.jpg": "/react-cart/static/media/cap6.82f575197f11e3d03491.jpg",
+    "static/media/cap4.jpg": "/react-cart/static/media/cap4.a7544960388328e16a11.jpg",
+    "static/media/pants4.jpg": "/react-cart/static/media/pants4.879617ec38a89e80e2cb.jpg",
+    "static/media/cap3.jpg": "/react-cart/static/media/cap3.a35138ab777d35442805.jpg",
+    "static/media/shorts1.jpg": "/react-cart/static/media/shorts1.9b6360ccda718c644bde.jpg",
+    "static/media/shorts5.jpg": "/react-cart/static/media/shorts5.458de5642991dcb953db.jpg",
+    "static/media/shorts4.jpg": "/react-cart/static/media/shorts4.1abcda88da4aa54428f9.jpg",
+    "static/media/pants1.jpg": "/react-cart/static/media/pants1.4886d55f5a549ab5b696.jpg",
+    "static/media/cap1.jpg": "/react-cart/static/media/cap1.e2ef591a4ec64963f65b.jpg",
+    "static/media/pants6.jpg": "/react-cart/static/media/pants6.6a65556e4df072f1c879.jpg",
+    "static/media/pants3.jpg": "/react-cart/static/media/pants3.006b647562011ca70eb9.jpg",
+    "static/media/pants5.jpg": "/react-cart/static/media/pants5.c87de550dfadce5f189f.jpg",
+    "static/media/shorts6.jpg": "/react-cart/static/media/shorts6.b2e5ad0d2d46a3ed8de3.jpg",
+    "static/media/shorts3.jpg": "/react-cart/static/media/shorts3.ad8927d26159e8eedac7.jpg",
+    "static/media/cap2.jpg": "/react-cart/static/media/cap2.8ca7eaeb8a4878df0ddf.jpg",
+    "static/media/cap5.jpg": "/react-cart/static/media/cap5.db37f09755ef1ff666c2.jpg",
+    "static/media/shorts2.jpg": "/react-cart/static/media/shorts2.bae756b2043661f30aea.jpg",
+    "static/media/pants2.jpg": "/react-cart/static/media/pants2.a7d29715d19f2449a423.jpg",
     "index.html": "/react-cart/index.html",
-    "main.0a266591.css.map": "/react-cart/static/css/main.0a266591.css.map",
-    "main.16005a22.js.map": "/react-cart/static/js/main.16005a22.js.map"
+    "main.dcad6362.css.map": "/react-cart/static/css/main.dcad6362.css.map",
+    "main.9f0638cd.js.map": "/react-cart/static/js/main.9f0638cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a266591.css",
-    "static/js/main.16005a22.js"
+    "static/css/main.dcad6362.css",
+    "static/js/main.9f0638cd.js"
   ]
 }
