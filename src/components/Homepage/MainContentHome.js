@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./MainContentHome.css";
-import sliderExport from "./assets/sliderExport";
-import section1 from "./assets/section1.png";
-import section2 from "./assets/section2.png";
+import sliderExport from "../assets/sliderExport";
+import section1 from "../assets/section1.png";
+import section2 from "../assets/section2.png";
+
 const MainContentHome = () => {
   const [sliderImages, setSliderImages] = useState(sliderExport());
   const [currentItem, setCurrentItem] = useState(0);
@@ -52,7 +53,7 @@ const MainContentHome = () => {
   };
 
   return (
-    <main id="">
+    <main id="main-homepage">
       <section className="slider-container">
         <button className="arrow-left" onClick={clickSlide}>
           {" "}
