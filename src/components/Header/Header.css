@@ -10,7 +10,7 @@
     margin-left: 10%;
     height: 90%;
 }
-nav{
+.header-nav{
     
     display: flex;
     width: 35%;
@@ -18,13 +18,13 @@ nav{
     list-style-type: none;
     margin-right: 10%;
 }
-nav a{
+.header-nav a{
     position: relative;
     text-decoration: none;
     font-size: 1.3em;
     color: white;
 }
-a::after{
+.header-nav a::after{
     content: '';
     position: absolute;
     background-color: white;

@@ -11,6 +11,11 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/produtos" element={<Produtos />} />
+        <Route
+          path="/produtos/camisetas"
+          element={<Produtos type="shirts" />}
+        />
+        <Route path="/produtos/calças" element={<Produtos type="pants" />} />
       </Routes>
     </Router>
   </React.StrictMode>

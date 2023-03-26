@@ -3,6 +3,7 @@ import "./MainContentHome.css";
 import sliderExport from "../assets/sliderExport";
 import section1 from "../assets/section1.png";
 import section2 from "../assets/section2.png";
+import { Link } from "react-router-dom";
 
 const MainContentHome = () => {
   const [sliderImages, setSliderImages] = useState(sliderExport());
@@ -75,17 +76,15 @@ const MainContentHome = () => {
                 ></img>
               );
             })}
-            {/* <img src={slider1} className="item current-item"></img>
-            <img src={slider2} className="item"></img>
-            <img src={slider3} className="item"></img>
-            <img src={slider4} className="item"></img> */}
           </div>
         </div>
       </section>
-      <section className="section second-section">
-        <h3>Camisetas</h3>
-        <img src={section1}></img>
-      </section>
+      <Link to="/produtos/camisetas">
+        <section className="section second-section">
+          <h3>Camisetas</h3>
+          <img src={section1}></img>
+        </section>
+      </Link>
       <section className="section third-section">
         <h3>Calças</h3>
         <img src={section2}></img>
