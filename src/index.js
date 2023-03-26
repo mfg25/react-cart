@@ -16,6 +16,8 @@ root.render(
           element={<Produtos type="shirts" />}
         />
         <Route path="/produtos/calças" element={<Produtos type="pants" />} />
+        <Route path="/produtos/bonés" element={<Produtos type="caps" />} />
+        <Route path="/produtos/shorts" element={<Produtos type="shorts" />} />
       </Routes>
     </Router>
   </React.StrictMode>
