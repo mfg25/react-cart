@@ -78,3 +78,23 @@
     width: 100%;
     height: 100%;
 }
+@media (max-width: 1000px){
+    .caption{
+        font-size: 15px;
+    }
+    #main-product-page{
+        justify-content: center;
+    }
+    #product-bar{
+        width: 40%;
+    }
+    
+    
+    .products-grid{
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+        width: 60%;
+        height: 90%;
+        padding:0px;
+    }
+}
