@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/react-cart/static/css/main.6b59b8a3.css",
-    "main.js": "/react-cart/static/js/main.787fc017.js",
+    "main.css": "/react-cart/static/css/main.6552d4e0.css",
+    "main.js": "/react-cart/static/js/main.593f735e.js",
     "static/media/slider3.png": "/react-cart/static/media/slider3.7fc79cc300de01ccc7cd.png",
     "static/media/slider2.png": "/react-cart/static/media/slider2.cebba36bc189bdb26c85.png",
     "static/media/slider4.png": "/react-cart/static/media/slider4.c39f63b67d46d4bb5afc.png",
     "static/media/slider1.png": "/react-cart/static/media/slider1.3a8e848eca6f0ffe13f5.png",
     "static/media/section1.png": "/react-cart/static/media/section1.43f07e5e33415fd31fbb.png",
     "static/media/section2.png": "/react-cart/static/media/section2.a5aff73c9ed44f455bea.png",
-    "static/media/shirt4.png": "/react-cart/static/media/shirt4.2a7c37f51336f43c769e.png",
-    "static/media/shirt3.png": "/react-cart/static/media/shirt3.b8e6db86274978d36e8c.png",
-    "static/media/shirt5.png": "/react-cart/static/media/shirt5.9287ed3a6a7ba213f01d.png",
-    "static/media/shirt2.png": "/react-cart/static/media/shirt2.751fb760a52c9c96f86a.png",
+    "static/media/g801.png": "/react-cart/static/media/g801.47ffe6605e18807daad8.png",
+    "static/media/g1251.png": "/react-cart/static/media/g1251.bb05ef97bb794b22e4b7.png",
     "static/media/rx_logo.png": "/react-cart/static/media/rx_logo.9892c0ac79a201e1e9db.png",
-    "static/media/shirt1.png": "/react-cart/static/media/shirt1.9ccab628faf4f20b6f94.png",
+    "static/media/t301.png": "/react-cart/static/media/t301.eb90aeb91eedc81c8d8f.png",
     "static/media/cap6.jpg": "/react-cart/static/media/cap6.82f575197f11e3d03491.jpg",
     "static/media/cap4.jpg": "/react-cart/static/media/cap4.a7544960388328e16a11.jpg",
     "static/media/pants4.jpg": "/react-cart/static/media/pants4.879617ec38a89e80e2cb.jpg",
@@ -33,11 +31,11 @@
     "static/media/shorts2.jpg": "/react-cart/static/media/shorts2.bae756b2043661f30aea.jpg",
     "static/media/pants2.jpg": "/react-cart/static/media/pants2.a7d29715d19f2449a423.jpg",
     "index.html": "/react-cart/index.html",
-    "main.6b59b8a3.css.map": "/react-cart/static/css/main.6b59b8a3.css.map",
-    "main.787fc017.js.map": "/react-cart/static/js/main.787fc017.js.map"
+    "main.6552d4e0.css.map": "/react-cart/static/css/main.6552d4e0.css.map",
+    "main.593f735e.js.map": "/react-cart/static/js/main.593f735e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b59b8a3.css",
-    "static/js/main.787fc017.js"
+    "static/css/main.6552d4e0.css",
+    "static/js/main.593f735e.js"
   ]
 }
