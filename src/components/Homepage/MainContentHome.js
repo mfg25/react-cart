@@ -19,7 +19,7 @@ const MainContentHome = () => {
       console.log("atualização");
       updateCurrent(false, currentItem.length);
       nextSlide(false);
-    }, 5000);
+    }, 10000000);
     return () => clearInterval(interval);
   }, [currentItem]);
 
