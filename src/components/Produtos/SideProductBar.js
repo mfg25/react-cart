@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const SideProductBar = () => {
   return (
     <nav id="product-bar">
-      <Link to="/produtos/camisetas">
+      <Link to="/produtos/decorativos">
         <div className="link-sidebar">
-          <h5>CAMISETAS</h5>
+          <h5>LINHA DECORATIVA</h5>
         </div>
       </Link>
-      <Link to="/produtos/calças">
+      {/* <Link to="/produtos/calças">
         <div className="link-sidebar">
           <h5>CALÇAS</h5>
         </div>
@@ -23,7 +23,7 @@ const SideProductBar = () => {
         <div className="link-sidebar">
           <h5>SHORTS</h5>
         </div>
-      </Link>
+      </Link> */}
     </nav>
   );
 };

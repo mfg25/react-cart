@@ -5,7 +5,6 @@ import MainProductPage from "./MainProductPage";
 const Produtos = (props) => {
   return (
     <div className="Home">
-      {console.log(props)}
       <Header />
       <MainProductPage type={props.type} />
     </div>

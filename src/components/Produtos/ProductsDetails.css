@@ -1,0 +1,116 @@
+.images-wrapper{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#products-details-main{
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content-wrapper{
+    background-color: white;
+    display: flex;
+
+    justify-content: center;
+    width: 95%;
+    height: 90%;
+    border-radius: 30px;
+}
+
+.main-image{
+    align-self: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 20px;
+}
+.images-selector{
+    width: 20%;
+    height: 100%;
+}
+.main-image-wrapper{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.hover-images-selector{
+    max-width: 100%;
+    max-height: 100%;
+}
+.image-container{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    align-items: center;
+}
+.description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    align-self: center;  
+}
+.description h3{
+    margin-bottom: 20px;
+}
+.product-name{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.selected-image{
+    box-shadow: 0 0 10px #9ecaed;
+    border: 2px solid #8bb1cf;
+}
+.description-text{
+    width: 90%;
+    margin-bottom: 20px;
+}
+table {
+    margin: 8px;
+    border-collapse: collapse;
+    border-spacing: 0;
+   
+    max-width: 100%;
+    border: 3px solid #ddd;
+  }
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+.redirect-button{
+    cursor:pointer;
+    background-color:#3483fa;
+    color: white;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 0px 20px 0px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 0px ;
+    transition: 0.4s;
+}
+.redirect-button:hover{
+    background-color:#2767c7;
+}
+.redirect-button img{
+    width: 50px;
+    padding: 10px;
+}
+.description a{
+    text-decoration: none;
+    align-self: center;
+    width: fit-content;
+    height: fit-content;
+}

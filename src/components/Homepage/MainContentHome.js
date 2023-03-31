@@ -81,7 +81,7 @@ const MainContentHome = () => {
       </section>
       <Link to="/produtos/camisetas">
         <section className="section second-section">
-          <h3>Camisetas</h3>
+          <h3>Linha decorativa</h3>
           <img src={section1}></img>
         </section>
       </Link>
