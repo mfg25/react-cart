@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/react-cart/static/css/main.6552d4e0.css",
-    "main.js": "/react-cart/static/js/main.593f735e.js",
-    "static/media/slider3.png": "/react-cart/static/media/slider3.7fc79cc300de01ccc7cd.png",
-    "static/media/slider2.png": "/react-cart/static/media/slider2.cebba36bc189bdb26c85.png",
-    "static/media/slider4.png": "/react-cart/static/media/slider4.c39f63b67d46d4bb5afc.png",
-    "static/media/slider1.png": "/react-cart/static/media/slider1.3a8e848eca6f0ffe13f5.png",
-    "static/media/section1.png": "/react-cart/static/media/section1.43f07e5e33415fd31fbb.png",
+    "main.css": "/react-cart/static/css/main.b8489a65.css",
+    "main.js": "/react-cart/static/js/main.7d51cd56.js",
+    "static/media/slider4.png": "/react-cart/static/media/slider4.83a8b20a1d8fb3e7c1a9.png",
+    "static/media/slider3.png": "/react-cart/static/media/slider3.3f76d32ecc6b4a7acfb2.png",
+    "static/media/slider2.png": "/react-cart/static/media/slider2.bb8e2ebea3010ee60a9d.png",
+    "static/media/slider1.png": "/react-cart/static/media/slider1.6b62f2a23cf78c27aa4c.png",
+    "static/media/section1.png": "/react-cart/static/media/section1.1962b975a7e06da26894.png",
     "static/media/section2.png": "/react-cart/static/media/section2.a5aff73c9ed44f455bea.png",
+    "static/media/ml-icon.png": "/react-cart/static/media/ml-icon.2c12bad375f9905c3e25.png",
+    "static/media/g802.png": "/react-cart/static/media/g802.befea4b01eb6ca8767c4.png",
     "static/media/g801.png": "/react-cart/static/media/g801.47ffe6605e18807daad8.png",
     "static/media/g1251.png": "/react-cart/static/media/g1251.bb05ef97bb794b22e4b7.png",
+    "static/media/g803.png": "/react-cart/static/media/g803.a2e95ec32c6a7e2dfec7.png",
     "static/media/rx_logo.png": "/react-cart/static/media/rx_logo.9892c0ac79a201e1e9db.png",
     "static/media/t301.png": "/react-cart/static/media/t301.eb90aeb91eedc81c8d8f.png",
     "static/media/cap6.jpg": "/react-cart/static/media/cap6.82f575197f11e3d03491.jpg",
@@ -31,11 +34,11 @@
     "static/media/shorts2.jpg": "/react-cart/static/media/shorts2.bae756b2043661f30aea.jpg",
     "static/media/pants2.jpg": "/react-cart/static/media/pants2.a7d29715d19f2449a423.jpg",
     "index.html": "/react-cart/index.html",
-    "main.6552d4e0.css.map": "/react-cart/static/css/main.6552d4e0.css.map",
-    "main.593f735e.js.map": "/react-cart/static/js/main.593f735e.js.map"
+    "main.b8489a65.css.map": "/react-cart/static/css/main.b8489a65.css.map",
+    "main.7d51cd56.js.map": "/react-cart/static/js/main.7d51cd56.js.map"
   },
   "entrypoints": [
-    "static/css/main.6552d4e0.css",
-    "static/js/main.593f735e.js"
+    "static/css/main.b8489a65.css",
+    "static/js/main.7d51cd56.js"
   ]
 }
