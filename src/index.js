@@ -17,12 +17,25 @@ root.render(
           element={<Produtos type="decorativos" />}
         />
         <Route
+          path="/produtos/residencial"
+          element={<Produtos type="residencial" />}
+        />
+        <Route
+          path="/produtos/industrial"
+          element={<Produtos type="industrial" />}
+        />
+        <Route
           path="/produtos/decorativos/:id"
           element={<ProductsDetails type="decorativos" />}
         />
-        <Route path="/produtos/calças" element={<Produtos type="pants" />} />
-        <Route path="/produtos/bonés" element={<Produtos type="caps" />} />
-        <Route path="/produtos/shorts" element={<Produtos type="shorts" />} />
+        <Route
+          path="/produtos/residencial/:id"
+          element={<ProductsDetails type="residencial" />}
+        />
+        <Route
+          path="/produtos/industrial/:id"
+          element={<ProductsDetails type="industrial" />}
+        />
       </Routes>
     </Router>
   </React.StrictMode>

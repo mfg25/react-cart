@@ -19,7 +19,7 @@ const MainContentHome = () => {
       console.log("atualização");
       updateCurrent(false, currentItem.length);
       nextSlide(false);
-    }, 10000000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [currentItem]);
 
@@ -79,15 +79,15 @@ const MainContentHome = () => {
           </div>
         </div>
       </section>
-      <Link to="/produtos/camisetas">
+      <Link to="/produtos/decorativos">
         <section className="section second-section">
           <h3>Linha decorativa</h3>
           <img src={section1}></img>
         </section>
       </Link>
-      <Link to="/produtos/calças">
+      <Link to="/produtos/residencial">
         <section className="section third-section">
-          <h3>Calças</h3>
+          <h3>Linha residencial</h3>
           <img src={section2}></img>
         </section>
       </Link>

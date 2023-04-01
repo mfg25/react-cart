@@ -4,6 +4,7 @@ import { useParams, useLocation } from "react-router-dom";
 import decorativosExport from "../assets/products/decorativos/export";
 import "./ProductsDetails.css";
 import mlIcon from "../assets/ml-icon.png";
+import residencialExport from "../assets/products/residencial/residencialExport";
 const ProductsDetails = (props) => {
   const id = useParams();
   const [product, setProduct] = useState();
@@ -12,6 +13,7 @@ const ProductsDetails = (props) => {
   useEffect(() => {
     let array = [];
     if (props.type === "decorativos") array = decorativosExport();
+    if (props.type === "residencial") array = residencialExport();
     array.forEach((element) => {
       if (element.id === id.id) {
         setProduct(element);
@@ -61,27 +63,26 @@ const ProductsDetails = (props) => {
             <h2 className="product-name">{product ? product.name : 0}</h2>
             <h3>Descrição:</h3>
             <p className="description-text">
-              A Lâmpada Decorativa Retro Vintage Âmbar Filamento Led G80 E27 é
-              uma lâmpada com estilo retrô e tecnologia LED, com formato
-              esférico, cor âmbar e filamento exposto. Ideal para decoração de
-              ambientes, oferece eficiência energética e encaixe padrão E27.
+              {product ? product.description : 0}
             </p>
-            <table>
-              <tr>
-                {product
-                  ? product.tableData.map((data) => {
-                      return <th>{data[0]}</th>;
-                    })
-                  : 0}
-              </tr>
-              <tr>
-                {product
-                  ? product.tableData.map((data) => {
-                      return <td>{data[1]}</td>;
-                    })
-                  : 0}
-              </tr>
-            </table>
+            <div className="table-container">
+              <table>
+                <tr>
+                  {product
+                    ? product.tableData.map((data) => {
+                        return <th>{data[0]}</th>;
+                      })
+                    : 0}
+                </tr>
+                <tr>
+                  {product
+                    ? product.tableData.map((data) => {
+                        return <td>{data[1]}</td>;
+                      })
+                    : 0}
+                </tr>
+              </table>
+            </div>
             <a href={product ? product.productLink : 0} target="_blank">
               <button className="redirect-button">
                 Ver anúncio <img src={mlIcon} />

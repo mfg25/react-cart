@@ -1,14 +1,15 @@
 #header{
     width: 100%;
     height: 10%;
-    background-color: black;
+    background-color: #758ECD;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #header .logo-icon{
     margin-left: 10%;
-    height: 90%;
+    height: 95%;
+    margin-bottom: 4px;
 }
 .header-nav{
     
@@ -24,12 +25,13 @@
     position: relative;
     text-decoration: none;
     font-size: 1.3em;
-    color: white;
+    color: #e7eeeb;
+    font-weight: 800;
 }
 .header-nav a::after{
     content: '';
     position: absolute;
-    background-color: white;
+    background-color: #F0F7F4;
     height: 3px;
     width: 0%;
     left: 0;

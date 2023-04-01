@@ -9,21 +9,16 @@ const SideProductBar = () => {
           <h5>LINHA DECORATIVA</h5>
         </div>
       </Link>
-      {/* <Link to="/produtos/calças">
+      <Link to="/produtos/residencial">
         <div className="link-sidebar">
-          <h5>CALÇAS</h5>
+          <h5>LINHA RESIDENCIAL</h5>
         </div>
       </Link>
-      <Link to="/produtos/bonés">
+      <Link to="/produtos/industrial">
         <div className="link-sidebar">
-          <h5>BONÉS</h5>
+          <h5>LINHA INDUSTRIAL</h5>
         </div>
       </Link>
-      <Link to="/produtos/shorts">
-        <div className="link-sidebar">
-          <h5>SHORTS</h5>
-        </div>
-      </Link> */}
     </nav>
   );
 };

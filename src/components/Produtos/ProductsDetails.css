@@ -13,7 +13,7 @@
     justify-content: center;
 }
 .main-content-wrapper{
-    background-color: white;
+    background-color: #F0F7F4;
     display: flex;
 
     justify-content: center;
@@ -21,7 +21,9 @@
     height: 90%;
     border-radius: 30px;
 }
-
+.table-container{
+    overflow-x: auto;
+}
 .main-image{
     align-self: center;
     max-width: 100%;

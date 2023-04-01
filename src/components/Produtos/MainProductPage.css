@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 #product-bar{
     display: flex;
@@ -25,13 +26,17 @@
     font-size: 25px;
     transition: 0.4s;
 }
+.main-image-wrapper{
+    display: flex;
+    justify-content: center;
+}
 .link-sidebar h5{
     position: absolute;
     right: 0;
     padding: 20px;
 }
 .link-sidebar:hover h5{
-    color: white;
+    color: #F0F7F4;
 }
 .products-grid{
     width: 90%;
@@ -39,13 +44,14 @@
     display:grid;
     box-sizing: border-box;
     padding:0px 100px 0px 100px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
 }
 .link-sidebar::after{
     content: '';
     position: absolute;
-    background-color: black;
+    background-color: #758ECD;
     width: 0%;
     height: 100%;
     z-index: -10;
@@ -58,26 +64,31 @@
     margin: 10px 0px 10px 0px;
     display: flex;
     align-items: center;
-    
+    border: 5px solid #e0e6e3;
     flex-direction: column;
 }
 .product-container img{
-    max-width:80%;
-    max-height:80%;
+    max-width:70%;
+    max-height:70%;
     transition: 0.4s;
+    
+    margin: 10px 0px 10px 0px;
 }
+
 .product-container:hover img{
-    max-width:82%;
-    max-height:82%;
+    max-width:71%;
+    max-height:71%;
 }
 .products-grid a{
     color: black;
     text-decoration: none;
+    height: fit-content;
 }
 .caption{
     text-align: center;
     font-size: 18px;
     display: flex;
+    margin: 15px 0px 15px 0px;
     flex-direction: column;
     align-items: center;
     
