@@ -15,8 +15,8 @@ const Nav = () => {
         <Link to="/produtos">
           <div className="links">PRODUTOS</div>
         </Link>
-        <Link to="/contato">
-          <div className="links">CONTATO</div>
+        <Link to="/informações">
+          <div className="links">INFORMAÇÕES</div>
         </Link>
       </div>
       <img src={navIcon} alt="nav" className="nav-icon" onClick={changeState} />
