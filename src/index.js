@@ -4,6 +4,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import ProductsDetails from "./components/Produtos/ProductsDetails";
 import Produtos from "./components/Produtos/Produtos";
 import Home from "./Home";
+import Contato from "./components/Contato/Contato";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,11 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/produtos" element={<Produtos />} />
+        <Route path="/contato" element={<Contato />} />
+        <Route
+          path="/produtos/decorativos"
+          element={<Produtos type="decorativos" />}
+        />
         <Route
           path="/produtos/decorativos"
           element={<Produtos type="decorativos" />}

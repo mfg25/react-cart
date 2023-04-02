@@ -3,6 +3,7 @@ import "./MainContentHome.css";
 import sliderExport from "../assets/sliderExport";
 import section1 from "../assets/section1.png";
 import section2 from "../assets/section2.png";
+import section3 from "../assets/section3.png";
 import { Link } from "react-router-dom";
 
 const MainContentHome = () => {
@@ -19,7 +20,7 @@ const MainContentHome = () => {
       console.log("atualização");
       updateCurrent(false, currentItem.length);
       nextSlide(false);
-    }, 5000);
+    }, 50000);
     return () => clearInterval(interval);
   }, [currentItem]);
 
@@ -89,6 +90,12 @@ const MainContentHome = () => {
         <section className="section third-section">
           <h3>Linha residencial</h3>
           <img src={section2}></img>
+        </section>
+      </Link>
+      <Link to="/produtos/industrial" className="industrial-section">
+        <section className="section fourth-section">
+          <h3>Linha industrial</h3>
+          <img src={section3}></img>
         </section>
       </Link>
     </main>

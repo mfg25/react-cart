@@ -1,5 +1,5 @@
 #main-product-page{
-    height: calc(100% - 10%);
+    height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
