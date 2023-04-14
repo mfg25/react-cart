@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/react-cart/static/css/main.85fc5977.css",
-    "main.js": "/react-cart/static/js/main.fdbf75d2.js",
+    "main.css": "/react-cart/static/css/main.db6eb4dc.css",
+    "main.js": "/react-cart/static/js/main.f60cde61.js",
     "static/media/slider4.png": "/react-cart/static/media/slider4.83a8b20a1d8fb3e7c1a9.png",
     "static/media/slider3.png": "/react-cart/static/media/slider3.3f76d32ecc6b4a7acfb2.png",
     "static/media/slider2.png": "/react-cart/static/media/slider2.bb8e2ebea3010ee60a9d.png",
-    "static/media/slider1.png": "/react-cart/static/media/slider1.6b62f2a23cf78c27aa4c.png",
+    "static/media/slider1.png": "/react-cart/static/media/slider1.21e99d78cfb9d4a1e657.png",
     "static/media/section3.png": "/react-cart/static/media/section3.b2d0acb3c290b03ad6d4.png",
     "static/media/section2.png": "/react-cart/static/media/section2.d4fdc7d26d3aafdb8989.png",
     "static/media/g1254.png": "/react-cart/static/media/g1254.db481886259747f25831.png",
@@ -44,11 +44,11 @@
     "static/media/slim1.webp": "/react-cart/static/media/slim1.c1a6376557a40fcb43dd.webp",
     "static/media/bulbo3.webp": "/react-cart/static/media/bulbo3.29b8f1c1fabb7f562c5e.webp",
     "index.html": "/react-cart/index.html",
-    "main.85fc5977.css.map": "/react-cart/static/css/main.85fc5977.css.map",
-    "main.fdbf75d2.js.map": "/react-cart/static/js/main.fdbf75d2.js.map"
+    "main.db6eb4dc.css.map": "/react-cart/static/css/main.db6eb4dc.css.map",
+    "main.f60cde61.js.map": "/react-cart/static/js/main.f60cde61.js.map"
   },
   "entrypoints": [
-    "static/css/main.85fc5977.css",
-    "static/js/main.fdbf75d2.js"
+    "static/css/main.db6eb4dc.css",
+    "static/js/main.f60cde61.js"
   ]
 }
