@@ -6,8 +6,12 @@
     font-family: 'Montserrat', sans-serif;
     
 }
-html, body{
-   overflow-x: hidden;
-    height: 100vh;
-    width: 100vw;
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+#root{
+    height: 100%;
 }

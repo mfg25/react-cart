@@ -1,0 +1,109 @@
+#main-login-page{
+    display: flex;
+    flex-grow: 1; /* Faz o main content ocupar o restante do espaço */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;  /* Isso garante que o contêiner ocupe 100% da altura da página */
+}
+
+#form-container{
+    box-shadow:0px 0px 15px rgb(148, 141, 141);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+#form-container form{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 60%;
+}
+#form-container input{
+    width: 100%;
+    height:50px;
+    border-radius: 5px;
+    border: 2px solid rgb(168, 168, 168);
+}
+form input:focus{
+    border: 2px solid #1877f2;
+    outline: none;
+}
+form input.error{
+    border: 2px solid red;
+    outline: none;
+}
+button{
+    font-size: larger;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#entrar{
+    height:50px;
+    background-color: #0a0b0e;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+#entrar:hover{
+    background-color: white;
+    color: #0a0b0e;
+}
+input::placeholder{
+    padding-left: 2px;
+}
+#line{
+    height: 1px;
+    background-color: rgb(168, 168, 168);
+}
+#esqueceu-senha{
+    cursor: pointer;
+}
+form p{
+    text-align: center;
+    color: black;
+}
+#nova-conta{
+    align-self: center;
+    height:50px;
+    width: 60%;
+    background-color: #0a0b0e;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+#nova-conta:hover{
+    background-color: white;
+    color: black;
+}
+.error-message{
+    color: red;
+    font-size: smaller;
+    position: relative;
+    top: 2%;
+}
+
+#new-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#email-password-container{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

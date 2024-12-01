@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="Home">
       <Header />
-      <MainContentHome />
+        <MainContentHome />
       <Footer />
     </div>
   );

@@ -20,21 +20,22 @@ const MainContentHome = () => {
       console.log("atualização");
       updateCurrent(false, currentItem.length);
       nextSlide(false);
-    }, 50000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [currentItem]);
 
   const nextSlide = (isLeft) => {
     let maxItems = sliderImages.length;
     let current = updateCurrent(isLeft, maxItems);
-    let items = document.querySelectorAll(".item");
-    items.forEach((item) => {
-      items[current].scrollIntoView({
-        inline: "center",
-        behavior: "smooth",
-      });
+    let sliderWrapper = document.querySelector(".slider-wrapper");
+    let itemWidth = sliderWrapper.offsetWidth;
+  
+    sliderWrapper.scrollTo({
+      left: current * itemWidth,
+      behavior: "smooth",
     });
   };
+  
 
   const updateCurrent = (isLeft, maxItems) => {
     let current;
@@ -82,20 +83,14 @@ const MainContentHome = () => {
       </section>
       <Link to="/produtos/decorativos">
         <section className="section second-section">
-          <h3>Linha decorativa</h3>
+          <h3>Instrumentos</h3>
           <img src={section1}></img>
         </section>
       </Link>
       <Link to="/produtos/residencial">
         <section className="section third-section">
-          <h3>Linha residencial</h3>
+          <h3>Equipamentos</h3>
           <img src={section2}></img>
-        </section>
-      </Link>
-      <Link to="/produtos/industrial" className="industrial-section">
-        <section className="section fourth-section">
-          <h3>Linha industrial</h3>
-          <img src={section3}></img>
         </section>
       </Link>
     </main>

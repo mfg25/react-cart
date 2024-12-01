@@ -6,7 +6,7 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <header id="header">
-      <img src={logo} alt="Rexpeita" className="logo-icon"></img>
+      <img src={logo} alt="Lar do Som" className="logo-icon"></img>
       <Nav />
     </header>
   );

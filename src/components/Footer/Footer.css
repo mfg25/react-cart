@@ -1,8 +1,11 @@
-.footer{
-    border-top: 2px solid rgb(190, 190, 190);
-    width: 100%;
-    bottom: 0;
-    height: 10vh;
-   
-    
+.footer {
+    background-color: #141414;
+    width: 100%; /* Garante que ocupe toda a largura da tela */
+    height: 10vh; /* Usa vh para manter consistência com o header */
+    flex-shrink: 0; /* Impede que o footer encolha se o espaço for limitado */
+    display: flex; /* Torna o footer flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    padding: 0 20px;
+    box-sizing: border-box;
 }

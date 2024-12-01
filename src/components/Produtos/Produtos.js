@@ -1,13 +1,17 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import Header from "../Header/Header";
 import MainProductPage from "./MainProductPage";
 import Footer from "../Footer/Footer";
 
-const Produtos = (props) => {
+const Produtos = () => {
+  // Captura o parâmetro 'type' da URL
+  const { type } = useParams();
+  console.log(type)
   return (
     <div className="Home">
       <Header />
-      <MainProductPage type={props.type} />
+      <MainProductPage type={type} />
       <Footer />
     </div>
   );

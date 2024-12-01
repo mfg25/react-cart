@@ -1,9 +1,8 @@
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import mlIcon from "../assets/ml-icon.png";
-import "./Contato.css";
-const Contato = () => {
+import "./Informacoes.css";
+const Informacoes = () => {
   return (
     <div className="Home">
       <Header />
@@ -13,4 +12,4 @@ const Contato = () => {
   );
 };
 
-export default Contato;
+export default Informacoes;
