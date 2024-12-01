@@ -7,7 +7,6 @@ import Footer from "../Footer/Footer";
 const Produtos = () => {
   // Captura o parâmetro 'type' da URL
   const { type } = useParams();
-  console.log(type)
   return (
     <div className="Home">
       <Header />

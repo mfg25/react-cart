@@ -4,19 +4,14 @@ import { Link } from "react-router-dom";
 const SideProductBar = () => {
   return (
     <nav id="product-bar">
-      <Link to="/produtos/decorativos">
+      <Link to="/produtos/instrumento">
         <div className="link-sidebar">
-          <h5>LINHA DECORATIVA</h5>
+          <h5>INSTRUMENTOS</h5>
         </div>
       </Link>
-      <Link to="/produtos/residencial">
+      <Link to="/produtos/equipamento">
         <div className="link-sidebar">
-          <h5>LINHA RESIDENCIAL</h5>
-        </div>
-      </Link>
-      <Link to="/produtos/industrial">
-        <div className="link-sidebar">
-          <h5>LINHA INDUSTRIAL</h5>
+          <h5>EQUIPAMENTOS</h5>
         </div>
       </Link>
     </nav>

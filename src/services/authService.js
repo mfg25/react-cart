@@ -1,10 +1,10 @@
-import { onAuthStateChanged, createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword } from 'firebase/auth';
+import { onAuthStateChanged, createUserWithEmailAndPassword, updateProfile, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from './baas';
 import React, { useEffect, createContext, useState, useContext } from 'react';
+import { storage, db } from './baas';
+import { setDoc, doc } from 'firebase/firestore';
 
-
-
-export const registerUser = async (email, password, username) => {
+export const registerUser = async (email, password, username, phoneNumber) => {
   try {
     // Cria o usuário com email e senha
     const userCredential = await createUserWithEmailAndPassword(auth, email, password);
@@ -13,6 +13,14 @@ export const registerUser = async (email, password, username) => {
     // Atualiza o perfil do usuário para incluir o nome de usuário
     await updateProfile(user, {
       displayName: username,
+      phoneNumber: phoneNumber
+    });
+
+    const userRef = doc(db, 'users', user.uid); // Usando o UID para identificar o usuário
+    await setDoc(userRef, {
+      username: username,
+      email: email,
+      phoneNumber: phoneNumber, // Informações adicionais
     });
 
     console.log('Usuário cadastrado com sucesso:', user);
@@ -62,8 +70,15 @@ export const AuthProvider = ({ children }) => {
     setUser(userData);
   };
 
-  const logout = () => {
-    setUser(null);
+  const logout = async () => {
+    try {
+      await signOut(auth); // Faz logout no Firebase
+      setUser(null); // Atualiza o estado do contexto
+      console.log('Usuário deslogado com sucesso');
+    } catch (error) {
+      console.error('Erro ao fazer logout:', error.message);
+      throw error; // Opcional: Lança o erro para tratamento
+    }
   };
 
   return (

@@ -1,7 +1,7 @@
 import { storage, db } from './baas';
 import { collection, addDoc } from 'firebase/firestore';
 
-export const handleProductSubmit = async (title, description, image, username) => {
+export const handleProductSubmit = async (title, description, image, username, category) => {
   const formData = new FormData();
   formData.append('image', image);
 
@@ -23,6 +23,7 @@ export const handleProductSubmit = async (title, description, image, username) =
         description,
         imageUrl: imageUrl,
         username,
+        category
       });
 
       console.log('Produto enviado com sucesso!');
@@ -32,4 +33,15 @@ export const handleProductSubmit = async (title, description, image, username) =
   } catch (error) {
     console.error('Erro ao enviar produto:', error);
   }
+};
+
+export const handleInterestSubmit = async (interestedUser, productOwner, productId) => {
+      // Agora, salva as informações do produto no Firestore
+      await addDoc(collection(db, 'interestNotification'), {
+        interestedUser,
+        productOwner,
+        productId,
+      });
+
+      console.log('Produto enviado com sucesso!');
 };

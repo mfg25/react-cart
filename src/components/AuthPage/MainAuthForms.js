@@ -74,6 +74,7 @@ export const MainLoginPage = () => {
 export const MainRegisterPage = () => {
 
   const [username, setUsername] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
@@ -86,7 +87,7 @@ export const MainRegisterPage = () => {
     setLoading(true);
 
     try {
-      await registerUser(email, password, username)
+      await registerUser(email, password, username, phoneNumber)
       console.log(email + " " + username + " " + password)
       setMessage("Usuário cadastrado com sucesso!");
       navigate("/login")
@@ -103,7 +104,7 @@ export const MainRegisterPage = () => {
       <h1>Registrar</h1>
       <form action="" id="form" onSubmit={handleSubmit}>
         <div id="email-password-container">
-        <div>
+          <div>
             <input
               type="text"
               id="username"
@@ -112,6 +113,16 @@ export const MainRegisterPage = () => {
               minLength="3"
               maxLength="20"
               onChange={(e) => setUsername(e.target.value)}
+            />
+            <p class="error-message" id="username-error"></p>
+          </div>
+          <div>
+            <input
+              type="tel"
+              id="phone"
+              placeholder="Número de telefone"
+              required
+              onChange={(e) => setPhoneNumber(e.target.value)}
             />
             <p class="error-message" id="username-error"></p>
           </div>

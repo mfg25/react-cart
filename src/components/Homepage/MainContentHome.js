@@ -81,16 +81,16 @@ const MainContentHome = () => {
           </div>
         </div>
       </section>
-      <Link to="/produtos/decorativos">
+      <Link to="/produtos/instrumento">
         <section className="section second-section">
           <h3>Instrumentos</h3>
-          <img src={section1}></img>
+          <img src={section2}></img>
         </section>
       </Link>
-      <Link to="/produtos/residencial">
+      <Link to="/produtos/equipamento">
         <section className="section third-section">
           <h3>Equipamentos</h3>
-          <img src={section2}></img>
+          <img src={section1}></img>
         </section>
       </Link>
     </main>
