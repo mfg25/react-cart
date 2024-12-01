@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-cart/static/css/main.ab9b56f8.css",
-    "main.js": "/react-cart/static/js/main.206c451b.js",
+    "main.css": "/react-cart/static/css/main.3b266965.css",
+    "main.js": "/react-cart/static/js/main.21d4c77d.js",
     "static/media/section3.png": "/react-cart/static/media/section3.b2d0acb3c290b03ad6d4.png",
     "static/media/slider3.png": "/react-cart/static/media/slider3.10d76ba6370936ecef09.png",
     "static/media/slider1.png": "/react-cart/static/media/slider1.da9a8d3a43f187954e84.png",
@@ -13,11 +13,11 @@
     "static/media/pfp.png": "/react-cart/static/media/pfp.59e6598b95e96722f961.png",
     "static/media/rx_logo.png": "/react-cart/static/media/rx_logo.1aea794eb98e762384de.png",
     "index.html": "/react-cart/index.html",
-    "main.ab9b56f8.css.map": "/react-cart/static/css/main.ab9b56f8.css.map",
-    "main.206c451b.js.map": "/react-cart/static/js/main.206c451b.js.map"
+    "main.3b266965.css.map": "/react-cart/static/css/main.3b266965.css.map",
+    "main.21d4c77d.js.map": "/react-cart/static/js/main.21d4c77d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab9b56f8.css",
-    "static/js/main.206c451b.js"
+    "static/css/main.3b266965.css",
+    "static/js/main.21d4c77d.js"
   ]
 }
